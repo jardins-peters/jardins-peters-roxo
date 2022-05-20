@@ -1,5 +1,7 @@
 {{ define "main" }}
 <section class="site-contact">
+  {{ $formhandler := resources.Get "js/formhandler.js" | minify }}
+  <script async src="{{ $formhandler.Permalink }}"></script>
   <div class="container">
     <div class="row">
       <div class="col-lg-5">
