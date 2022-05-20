@@ -24,15 +24,8 @@ $secondary-font: 'Montserrat', sans-serif;
 $stroke-font: 'Roboto', sans-serif;
 
 // Css Changes
-.site-hero-content-text {
-  backdrop-filter: blur(4px);
-  background: rgba(240, 240, 240, 0.15);
-}
-
 .site-hero-content-heading {
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
-  font-family: $stroke-font;
-  font-weight: 900;
+  color: $white;
 }
 
 .site-footer-logo img {
