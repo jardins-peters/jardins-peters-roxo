@@ -1,0 +1,36 @@
+// Olive Green  #3D550C
+// Lime Green   #81B622
+// Yellow Green #ECF87F
+// Green        #59981A
+
+//site color variables
+$body-color: #fff;
+$primary-color: #81B622;
+// $secondary-color: #D1E2C4;
+$secondary-color: rgb(182, 209, 162);
+$text-color: #9D9EA5;
+$text-color-dark: #00113E;
+$site-ease: cubic-bezier(0.36, 0.03, 0, 0.91);
+$gray: #F7F9FF;
+$dark-gray: #646569;
+
+// solid colors
+$white: #fff;
+$black: #000;
+
+// Font Variables
+$primary-font: 'Josefin Sans', sans-serif;
+$secondary-font: 'Montserrat', sans-serif;
+$stroke-font: 'Roboto', sans-serif;
+
+// Css Changes
+.site-hero-content-text {
+  backdrop-filter: blur(4px);
+  background: rgba(240, 240, 240, 0.15);
+}
+
+.site-hero-content-heading {
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  font-family: $stroke-font;
+  font-weight: 900;
+}
