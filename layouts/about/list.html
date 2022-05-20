@@ -5,14 +5,14 @@
     <div class="row">
       <div class="col-12">
         <div class="site-about-wrapper">
-          <div class="site-about-company">
+          <div class="site-about-company">    
             <h1>
-              {{ .Params.heading }}
+              {{ .Site.Params.footer.scroll.up }}
             </h1>
           </div>
           <div class="site-about-description">
             <p>
-              {{ .Description }}
+              {{ .Site.Params.expertise.description }}
             </p>
           </div>
         </div>
@@ -24,16 +24,14 @@
 <section class="site-expertise">
   <div class="container">
     <div class="row">
-      {{ with .Params.expertise_title }}
       <div class="col-md-5">
         <div class="section-title">
-          <h2>{{ . }}</h2>
+          <h2>{{ .Site.Params.expertise.expertise_title }}</h2>
         </div>
       </div>
-      {{ end }}
       <div class="col-md-6">
         <ul class="site-expertise-list">
-          {{ range .Params.expertise_sectors }}
+          {{ range .Site.Params.expertise.expertise_sectors }}
           <li>{{ . }}</li>
           {{ end }}
         </ul>
